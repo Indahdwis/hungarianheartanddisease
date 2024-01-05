@@ -23,20 +23,3 @@ st.subheader("Visualization")
 
 # Example: Bar chart of sex distribution
 st.bar_chart(df['sex'].value_counts())
-
-# Example: Scatter plot of age vs thalach
-plt.scatter(df['age'], df['thalach'])
-plt.xlabel('Age')
-plt.ylabel('Thalach')
-plt.title('Scatter plot of Age vs Thalach')
-st.pyplot()
-
-# Example: Histogram of cholesterol levels
-plt.hist(df['chol'], bins=30, edgecolor='black')
-plt.xlabel('Cholesterol Levels')
-plt.ylabel('Frequency')
-plt.title('Histogram of Cholesterol Levels')
-st.pyplot()
-
-
-
